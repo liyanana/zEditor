@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "baseUrl": "./",
+    "paths": {
+      "@@/*": [
+        ".dumi/tmp/*"
+      ],
+      "zEditor": [
+        "src"
+      ],
+      "zEditor/*": [
+        "src/*",
+        "*"
+      ]
+    }
+  },
+  "include": [
+    ".dumirc.ts",
+    "src/**/*"
+  ]
+}
